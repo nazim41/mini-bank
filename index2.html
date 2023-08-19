@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class=" text-center px-[200px] py-[100px] h-100vh">
+
+    <h1 class="font-bold text-[50px]">Your acccount <span class="text-yellow-800">Details</span></h1>
+
+
+    <section class="grid grid-cols-3 gap-x-[50px] mt-[50px]">
+        <div class="bg-yellow-800 h-[100px] text-center pt-[20px]">
+            <h1 class="text-[white] font-bold text-2xl">Deposit Ammout:</h1>
+            <p class="text-[white] font-bold text-4xl">$<span id="doneDeposit">00</span></p>
+        </div>
+
+
+        <div class="bg-red-800 h-[100px] text-center pt-[20px]">
+            <h1 class="text-[white] font-bold text-xl" >Windraw Ammout:</h1>
+            <p class="text-4xl font-bold text-[white]">$<span id="r">00</span></p>
+        </div>
+
+
+
+        
+
+        <div class="bg-green-800 h-[100px] text-center pt-[20px]">
+<h1 class="text-[white] font-bold text-xl ">Balance:</h1>
+<p class="text-[white] font-bold text-4xl ">$<span id="balance">00</span></p>
+        </div>
+    </section>
+
+
+<section class="grid grid-cols-2 mt-[50px] gap-[70px]">
+
+
+<div class="bg-red-400 h-[240px] pt-[60px]">
+<p class="font-bold text-[white] text-2xl ">Please Deposite:</p>
+<input type="text" placeholder="$please enter your ammount" class="w-[350px] px-[20px] mt-[25px]" id="deposit-box"> <br>
+
+
+<!-- this is the submit button for the deposit -->
+
+<button class="font-bold text-[white]  text-xl h-[50px] w-[100px] bg-[yellow] mt-[10px] rounded-lg " id="btn-deposit">
+    submit
+</button>
+</div>
+
+<div class="bg-blue-400 h-[240px] pt-[60px]">
+<p class="text-2xl font-bold text-[white]">Click here to withdraw:</p> <br>
+<input type="text" placeholder="$Please Enter your ammout" class="w-[350px] px-[20px]" id ="w"> <br>
+
+<!--
+this is the submit button for the widthraw -->
+
+
+<button class="font-bold text-[white] text-xl bg-[red] mt-[10px] h-[50px] w-[100px] rounded-lg" id="btn-withdraw">
+    submit
+</button>
+</div>
+
+</section>
+
+
+
+
+<!-- //this is the javascript file. -->
+<script src="javascript2.js">
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
